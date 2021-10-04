@@ -1,0 +1,78 @@
+CenterManagerID,PhoneNumber,PhoneNumberType,AddressType,Address,PostalCode,EmailAddress,Country
+1,820-555-0121,Cell,Residential,7207 Sycamore Dr.,91791,angel19@gmail.com,United States
+2,361-555-0177,Cell,Residential,5543 Royal Arch Court,98168,whitney19@gmail.com,United States
+3,947-555-0134,Cell,Residential,8352 Turning View Cricle Drive,92102,miguel2@gmail.com,United States
+4,291-555-0126,Home,Residential,2594 Breaker Dr,94519,ricky7@gmail.com,United States
+5,118-555-0190,Cell,Business,330 Camino Verde,94519,shawn2@gmail.com,Canada
+6,502-555-0164,Home,Residential,4113 Pershing Dr,95062,ian26@gmail.com,United States
+7,169-555-0177,Home,Residential,1671 F St.,91941,arianna38@gmail.com,United States
+8,673-555-0165,Home,Residential,1551 Happy Valley Road,91932,janet31@gmail.com,United States
+9,367-555-0114,Cell,Residential,6310 Jamie Way,91932,brittany11@gmail.com,Canada
+10,195-555-0135,Home,Residential,8836 First Ave.,91950,sarah1@gmail.com,United States
+11,308-555-0116,Cell,Business,507 Sahara Drive,98168,kristi19@gmail.com,United States
+12,607-555-0151,Cell,Residential,2547 San Ramon Road,90802,chloe32@gmail.com,United States
+13,332-555-0195,Home,Residential,6058 Foothill Way,90802,ryan25@gmail.com,Canada
+14,757-555-0160,Cell,Residential,482 ViewPoint Court,98201,caleb7@gmail.com,United States
+15,164-555-0118,Cell,Residential,6670 Brook St.,98501,dalton56@gmail.com,United States
+16,807-555-0178,Home,Residential,1453 Asilomar Dr.,97301,marcus62@gmail.com,United States
+17,353-555-0139,Cell,Residential,6939 Hilltop Dr.,98371,alexandra49@gmail.com,United States
+18,124-555-0175,Home,Residential,5279 Glenwood Dr.,99362,mason26@gmail.com,United States
+19,271-555-0119,Home,Residential,5313 Haynes Court,29910,cheryl15@gmail.com,United States
+20,172-555-0150,Home,Residential,8237 Gibrix Dr.,90210,brett12@gmail.com,United States
+21,836-555-0131,Home,Business,8534 Willow Pass Road,98403,alexandria32@gmail.com,United States
+22,1 (11) 500 555-0161,Home,Residential,5345 Willow Avenue,2138,kaitlin13@gmail.com,Australia
+23,276-555-0114,Home,Residential,7036 Las Quebrados Ln.,90505,eduardo89@gmail.com,United States
+24,198-555-0136,Cell,Residential,3962 Clyde Street,90505,edwin34@gmail.com,Canada
+25,191-555-0172,Cell,Residential,8581 Paris Lane,98225,emma11@gmail.com,United States
+26,187-555-0111,Cell,Residential,4672 Euclid Ave,98033,connor11@gmail.com,United States
+27,649-555-0115,Home,Business,5888 Salem St.,94519,julia66@gmail.com,United States
+28,394-555-0170,Home,Residential,1069 Ahwanee Lane,94015,spencer12@gmail.com,United States
+29,1 (11) 500 555-0191,Cell,Residential,302 Via Cordona Ln.,4171,rodney14@gmail.com,Australia
+30,1 (11) 500 555-0156,Home,Residential,8290 Margaret Ct.,2065,rebekah18@gmail.com,Australia
+31,1 (11) 500 555-0117,Home,Residential,7793 Kaski Ln.,2580,bryan22@gmail.com,Australia
+32,1 (11) 500 555-0128,Cell,Residential,7061 Eaker Way,7001,savannah36@gmail.com,Australia
+33,1 (11) 500 555-0147,Cell,Business,7232 Mulberry,2300,kristen9@gmail.com,Australia
+34,1 (11) 500 555-0145,Cell,Residential,5957 Hill Drive,4000,dalton21@gmail.com,Australia
+35,1 (11) 500 555-0160,Home,Residential,5274 Harvey Way,94519,adam49@gmail.com,United Kingdom
+36,1 (11) 500 555-0140,Home,Business,2461 Stephine Way,94015,donald8@gmail.com,United Kingdom
+37,1 (11) 500 555-0113,Home,Residential,4207 Madrid Lane,4171,michele48@gmail.com,United Kingdom
+38,1 (11) 500 555-0175,Cell,Residential,4203 Wildcat Circle,2065,bruce21@gmail.com,United Kingdom
+39,116-555-0100,Home,Residential,4203 Wildcat Circle,2580,alice3@gmail.com,92081
+40,1 (11) 500 555-0137,Home,Residential,"66, avenue",7001,,59170
+41,1 (11) 500 555-0175,Home,Residential,6520 Hazelnut Lane,2300,abigail49@gmail.com,United Kingdom
+42,1 (11) 500 555-0153,Home,Residential,Hauptstr 6039,4000,bailey21@gmail.com,Germany
+43,1 (11) 500 555-0134,Home,Residential,Welt Platz 7,33098,jenny24@gmail.com,Germany
+44,1 (11) 500 555-0128,Cell,Residential,Hauptstr 6142,66272,amy12@gmail.com,Germany
+45,1 (11) 500 555-0153,Cell,Residential,Hauptstr 6142,66272,kaitlyn69@gmail.com,93000
+46,1 (11) 500 555-0155,Home,Business,Wertheimer Straße 895,64283,veronica16@gmail.com,Germany
+47,1 (11) 500 555-0182,Cell,Residential,Wertheimer Straße 277,33098,alejandro46@gmail.com,Germany
+48,1 (11) 500 555-0189,Cell,Residential,8075 Shangri-la Rd.,33098,brianna46@gmail.com,United Kingdom
+49,1 (11) 500 555-0129,Home,Business,5975 Grove Way,95062,teresa4@gmail.com,United Kingdom
+50,924-555-0117,Cell,Business,7357 Scramble Road,95062,savannah24@gmail.com,United States
+51,329-555-0193,Cell,Residential,1105 O St.,91945,emma21@gmail.com,Canada
+52,821-555-0180,Home,Residential,7781 Santa Barbara Rd,91945,luis11@gmail.com,United States
+53,119-555-0182,Cell,Residential,8526 Krueger Drive,98201,connor30@gmail.com,Canada
+54,233-555-0188,Cell,Residential,7689 Gumwood,98201,cassidy1@gmail.com,United States
+55,211-555-0119,Cell,Residential,8348 Holiday Hill Dr.,98201,thomas76@gmail.com,Canada
+56,225-555-0121,Home,Business,6673 Eola,92020,paige36@gmail.com,United States
+57,651-555-0165,Home,Residential,7986 Terra Calitina,98225,fernando5@gmail.com,United States
+58,145-555-0167,Home,Residential,3679 Diablo View Road,97355,nathaniel15@gmail.com,Canada
+59,690-555-0141,Home,Residential,6940 Hilltop Dr,94014,austin8@gmail.com,United States
+60,619-555-0115,Home,Residential,9563 Lani Kai Drive,98403,seth7@gmail.com,United States
+61,580-555-0194,Home,Residential,1409 Coachman Pl.,97355,pedro32@gmail.com,Canada
+62,527-555-0115,Home,Business,1713 Alvarado,94014,carson15@gmail.com,Canada
+63,630-555-0145,Home,Residential,3929 Fern Street,97355,paige29@gmail.com,United States
+64,224-555-0119,Cell,Residential,2290 Mt. Hood Circle,94014,faith7@gmail.com,United States
+65,579-555-0134,Cell,Business,4263 San Ysidro Court,94536,zachary4@gmail.com,United States
+66,279-555-0196,Cell,Residential,8017 Roanoke Drive,94941,faith10@gmail.com,United States
+67,696-555-0114,Cell,Residential,5696 Morgan Territory Rd.,97355,gavin2@gmail.com,Canada
+68,375-555-0175,Cell,Residential,4485 Mt. Orange Place,94014,kristi4@gmail.com,United States
+69,931-555-0154,Home,Residential,8083 Ridgewood Drive,91950,amanda43@gmail.com,United States
+70,180-555-0137,Home,Residential,3648 Hedaro Court,97045,noah45@gmail.com,United States
+71,849-555-0119,Cell,Residential,6522 Panoramic Dr.,92102,ian61@gmail.com,United States
+72,618-555-0131,Cell,Residential,4246 Falls Ct.,90401,jackson35@gmail.com,United States
+73,554-555-0116,Cell,Residential,7479 Ellis Street,98052,katherine42@gmail.com,United States
+74,863-555-0120,Home,Residential,1947 El Mundo Dr,98027,alexia14@gmail.com,United States
+75,205-555-0120,Home,Business,5958 Cross Road,97034,lucas41@gmail.com,United States
+76,610-555-0182,Cell,Residential,8422 Castle Rock,90706,katherine51@gmail.com,United States
+77,411-555-0124,Cell,Residential,5267 Counting Drive,98168,paige41@gmail.com,United States

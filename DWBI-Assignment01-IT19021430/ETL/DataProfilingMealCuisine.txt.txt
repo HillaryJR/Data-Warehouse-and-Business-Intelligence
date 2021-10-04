@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<DataProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
+  <ProfileVersion>1.0</ProfileVersion>
+  <DataSources>
+    <DtsDataSource ID="{224B8897-9DE3-4950-A4D9-8968FBAD7BB8}" Name="DataProfiling.txt">
+      <DtsConnectionManagerID>DataProfiling.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{8D5F1B14-AAC5-4D1A-A046-095F0250C2F5}" Name="DataProfilingMealCuisine.txt.txt">
+      <DtsConnectionManagerID>DataProfilingMealCuisine.txt.txt</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{5E3C27C9-B2F1-4838-BD36-88ED44BF106A}" Name="DataProfilingMealCuisine.txt.txt 1">
+      <DtsConnectionManagerID>DataProfilingMealCuisine.txt.txt 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{04F3D446-C3A8-4124-BB0D-E955E5777CC5}" Name="DESKTOP-Q21SCKG.MealDemand_Staging">
+      <DtsConnectionManagerID>DESKTOP-Q21SCKG.MealDemand_Staging</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{03BB4E9F-C044-4620-B098-4DA670685167}" Name="DESKTOP-Q21SCKG.MealDemand_Staging 1">
+      <DtsConnectionManagerID>DESKTOP-Q21SCKG.MealDemand_Staging 1</DtsConnectionManagerID>
+    </DtsDataSource>
+  </DataSources>
+  <DataProfileInput>
+    <ProfileMode>Exact</ProfileMode>
+    <Timeout>0</Timeout>
+    <Requests>
+      <ColumnNullRatioProfileRequest ID="NullRatioReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <Column IsWildCard="true" />
+      </ColumnNullRatioProfileRequest>
+      <ColumnStatisticsProfileRequest ID="StatisticsReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <Column IsWildCard="true" />
+      </ColumnStatisticsProfileRequest>
+      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <Column IsWildCard="true" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+      </ColumnLengthDistributionProfileRequest>
+      <ColumnValueDistributionProfileRequest ID="ValueDistReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <Column IsWildCard="true" />
+        <Option>FrequentValues</Option>
+        <FrequentValueThreshold>0.001</FrequentValueThreshold>
+      </ColumnValueDistributionProfileRequest>
+      <ColumnPatternProfileRequest ID="PatternReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <Column IsWildCard="true" />
+        <MaxNumberOfPatterns>10</MaxNumberOfPatterns>
+        <PercentageDataCoverageDesired>95</PercentageDataCoverageDesired>
+        <CaseSensitive>false</CaseSensitive>
+        <Delimiters> \t\r\n</Delimiters>
+        <Symbols>,.;:-"'`~=&amp;/\\@!?()&lt;&gt;[]{}|#*^%</Symbols>
+        <TagTableName />
+      </ColumnPatternProfileRequest>
+      <CandidateKeyProfileRequest ID="KeyReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <KeyColumns>
+          <Column IsWildCard="true" />
+        </KeyColumns>
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </CandidateKeyProfileRequest>
+      <FunctionalDependencyProfileRequest ID="FDReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table Schema="dbo" Table="StgMealCuisine" />
+        <DeterminantColumns>
+          <Column IsWildCard="true" />
+        </DeterminantColumns>
+        <DependentColumn IsWildCard="true" />
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <FDStrengthThreshold>0.95</FDStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </FunctionalDependencyProfileRequest>
+    </Requests>
+  </DataProfileInput>
+  <DataProfileOutput>
+    <Profiles>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>1</MinValue>
+        <MaxValue>4</MaxValue>
+        <Mean>2.5</Mean>
+        <StdDev>1.11803398874989</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>4</MinLength>
+        <MaxLength>11</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>4</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>6</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>11</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>13</MinLength>
+        <MaxLength>13</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>13</Length>
+            <Count>4</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <KeyColumns>
+          <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>1</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>2</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>3</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>4</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <KeyColumns>
+          <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>Continental</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Indian</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Italian</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Thai</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>1</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>1/1/2018 0:00</Value>
+            <Count>4</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnPatternProfile ProfileRequestID="PatternReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <TopRegexPatterns>
+          <PatternDistributionItem>
+            <RegexText>CONTINENTAL</RegexText>
+            <Frequency>25</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>ITALIAN</RegexText>
+            <Frequency>25</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>INDIAN</RegexText>
+            <Frequency>25</Frequency>
+          </PatternDistributionItem>
+          <PatternDistributionItem>
+            <RegexText>THAI</RegexText>
+            <Frequency>25</Frequency>
+          </PatternDistributionItem>
+        </TopRegexPatterns>
+      </ColumnPatternProfile>
+      <ColumnPatternProfile ProfileRequestID="PatternReq" IsExact="true">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <Column Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <TopRegexPatterns>
+          <PatternDistributionItem>
+            <RegexText>1/1/2018 0:00</RegexText>
+            <Frequency>100</Frequency>
+          </PatternDistributionItem>
+        </TopRegexPatterns>
+      </ColumnPatternProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <DeterminantColumns>
+          <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <DeterminantColumns>
+          <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="ModifiedDate" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <DeterminantColumns>
+          <Column Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+      <FunctionalDependencyProfile IsExact="true" ProfileRequestID="">
+        <DataSourceID>{04F3D446-C3A8-4124-BB0D-E955E5777CC5}</DataSourceID>
+        <Table DataSource="DESKTOP-Q21SCKG" Database="MealDemand_Staging" Schema="dbo" Table="StgMealCuisine" RowCount="4" />
+        <DeterminantColumns>
+          <Column Name="MealCuisineName" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </DeterminantColumns>
+        <DependentColumn Name="MealCuisineID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IsExactFD>true</IsExactFD>
+      </FunctionalDependencyProfile>
+    </Profiles>
+  </DataProfileOutput>
+</DataProfile>
