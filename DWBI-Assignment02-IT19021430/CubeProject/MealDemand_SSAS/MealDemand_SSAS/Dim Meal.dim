@@ -1,0 +1,485 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="92cb5b72-f8ae-4bf7-ae4b-6c549013c2aa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Meal</ID>
+  <Name>Dim Meal</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="4913" scrolltop="-974" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="7567" y="12171" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimMeal" left="483" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3519" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000bf0d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMeal" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimMealBeverage" left="20" top="6819" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4445" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00005d110000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMealBeverage" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimMealCuisine" left="6402" top="423" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4128" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c000020100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMealCuisine" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3702" top="1810" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimMeal-DimMealCuisine]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="20" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6402" y="2209" />
+              <point x="4002" y="2209" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1843" top="4119" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimMeal-DimMealBeverage]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2242" y="6819" />
+              <point x="2242" y="4419" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>4913</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-974</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>95</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="188">
+            <Shape Id="Meal SK" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meal SK" />
+                <Attribute Id="Alternate Meal Beverage ID" />
+                <Attribute Id="Alternate Meal Cuisine ID" />
+                <Attribute Id="Alternate Meal ID" />
+                <Attribute Id="Meal Beverage Key" />
+                <Attribute Id="Meal Beverage SK" />
+                <Attribute Id="Meal Cuisine Key" />
+                <Attribute Id="Meal Cuisine SK" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Meal Cuisine Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meal Cuisine Name" />
+              </Attributes>
+              <Position x="260" y="20" />
+            </Shape>
+            <Shape Id="Meal Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meal Name" />
+              </Attributes>
+              <Position x="260" y="68" />
+            </Shape>
+            <Shape Id="Meal Beverage Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Meal Beverage Name" />
+              </Attributes>
+              <Position x="260" y="116" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b4e96931-28c3-46d2-ace0-ec32e4df17d0">
+    <DataSourceViewID>DSV_Meal_Demand_DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="664032f2-342e-4370-9f80-9f9e6e0a9262">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5593b9c1-7a86-47d1-83ef-5d7c4cee0196">
+      <ID>Meal SK</ID>
+      <Name>Meal SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d292126-bc1f-44a5-88d6-065be64b9cb8">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="787b1dcc-bd64-472a-bf2f-3f61d007583a">
+            <TableID>dbo_DimMeal</TableID>
+            <ColumnID>MealSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5ce77999-d60a-41db-9e10-8edb1793b5ca">
+          <AttributeID>Meal Cuisine SK</AttributeID>
+          <Name>Meal Cuisine SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1347eb40-0e0b-4112-a96b-067fd54979fb">
+          <AttributeID>Meal Beverage SK</AttributeID>
+          <Name>Meal Beverage SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dff81c05-b4c1-4c5d-9352-306193113714">
+          <AttributeID>Alternate Meal Beverage ID</AttributeID>
+          <Name>Alternate Meal Beverage ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="be9893b4-ca98-4629-bb24-576393f8d839">
+          <AttributeID>Meal Beverage Name</AttributeID>
+          <Name>Meal Beverage Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c5db65ed-3795-48c1-9a3d-aed79fc362fe">
+          <AttributeID>Alternate Meal ID</AttributeID>
+          <Name>Alternate Meal ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6c0f6906-1ded-4e83-864d-5dda2f416f78">
+          <AttributeID>Meal Name</AttributeID>
+          <Name>Meal Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8c7d9068-1eeb-40c7-aec2-2fc6be4aabf9">
+          <AttributeID>Meal Cuisine Key</AttributeID>
+          <Name>Meal Cuisine Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f3862608-7146-404c-b4d2-bf4e4a374905">
+          <AttributeID>Meal Beverage Key</AttributeID>
+          <Name>Meal Beverage Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3b4b6e9d-a0c8-4ad2-801c-0474ee47d707">
+          <AttributeID>Alternate Meal Cuisine ID</AttributeID>
+          <Name>Alternate Meal Cuisine ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="303e3662-f83a-4f02-9ed1-7894f7908073">
+          <AttributeID>Meal Cuisine Name</AttributeID>
+          <Name>Meal Cuisine Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d4522f6-0f7d-4b1c-bd29-c765fef771c2">
+      <ID>Meal Cuisine SK</ID>
+      <Name>Meal Cuisine SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62389e6d-832a-4256-89ca-71bc00c6d07d">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94e3c2b0-47ad-4abf-8d71-b6b373dc67ce">
+            <TableID>dbo_DimMealCuisine</TableID>
+            <ColumnID>MealCuisineSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="420d47e2-9e4b-4cc6-80b0-c596c9df385b">
+      <ID>Meal Beverage SK</ID>
+      <Name>Meal Beverage SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4127c243-e477-4f63-969c-5cf964aedcd4">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0790f3a-2997-4762-864e-c10b737413b9">
+            <TableID>dbo_DimMealBeverage</TableID>
+            <ColumnID>MealBeverageSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e0a4c0a0-5d61-46d8-8471-91a5d252c916">
+      <ID>Alternate Meal Beverage ID</ID>
+      <Name>Alternate Meal Beverage ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fc133d69-8aa5-4fd5-be08-47f889409a5c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1665f8f9-c40e-41fc-878a-93145d68ec2a">
+            <TableID>dbo_DimMealBeverage</TableID>
+            <ColumnID>AlternateMealBeverageID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="89018fbb-426c-4c5f-98c7-d37b06a4a834">
+      <ID>Meal Beverage Name</ID>
+      <Name>Meal Beverage Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e0a89a38-12bb-41f0-9153-4f00376e5d2b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a734fa9-c528-4ad1-90cf-d6901eefbc98">
+            <TableID>dbo_DimMealBeverage</TableID>
+            <ColumnID>MealBeverageName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="39322aca-2a2b-4ebd-8189-ce1dbdd0df33">
+      <ID>Alternate Meal ID</ID>
+      <Name>Alternate Meal ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="207c0b55-75e3-47ef-b40c-d992cfd3c63f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af5f3882-3621-4a13-97c5-f363b2920800">
+            <TableID>dbo_DimMeal</TableID>
+            <ColumnID>AlternateMealID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8cc98362-d0b6-4856-afd8-dd93bbd8f135">
+      <ID>Meal Name</ID>
+      <Name>Meal Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e523504-7c5c-49ea-a572-e03ab1364b90">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3c596ccd-d856-4c5f-a500-1719700b4745">
+            <TableID>dbo_DimMeal</TableID>
+            <ColumnID>MealName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6102f921-d5ba-4025-b32a-8b4441df7339">
+      <ID>Meal Cuisine Key</ID>
+      <Name>Meal Cuisine Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1c5ebfc-50c2-4c4f-83ed-7a05c910f238">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cea5ed06-c036-4320-aff0-916c8510fbfb">
+            <TableID>dbo_DimMeal</TableID>
+            <ColumnID>MealCuisineKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0b86b516-8aa7-4bb7-98e5-eb345ce61316">
+      <ID>Meal Beverage Key</ID>
+      <Name>Meal Beverage Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a72c9c3-9240-4a2d-8003-7d4485568f0f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a31ef16c-186b-4b3e-af41-4d0fc26f8913">
+            <TableID>dbo_DimMeal</TableID>
+            <ColumnID>MealBeverageKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="31686af6-125d-41e7-9fc4-13aa1e7faf31">
+      <ID>Alternate Meal Cuisine ID</ID>
+      <Name>Alternate Meal Cuisine ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd6de98d-013a-48ea-9830-1807cf34c803">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4325dc9c-fd0d-41e5-9d6c-5babdfc5b731">
+            <TableID>dbo_DimMealCuisine</TableID>
+            <ColumnID>AlternateMealCuisineID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="93a5d50f-d82b-4614-8d07-0ae38a237ada">
+      <ID>Meal Cuisine Name</ID>
+      <Name>Meal Cuisine Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37ef1fd1-eeed-4a42-aef8-0f84a5d9f924">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81d5eb22-c965-4b00-b82d-c64977c3cb72">
+            <TableID>dbo_DimMealCuisine</TableID>
+            <ColumnID>MealCuisineName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="0994ca16-db0c-4ab9-b847-d362cd229285">
+      <ID>Hierarchy</ID>
+      <Name>Beverage_Cuisine_Meal</Name>
+      <Levels>
+        <Level dwd:design-time-name="8852bb98-cab1-45b1-933c-8a07a7876f5f">
+          <ID>Meal Beverage Name</ID>
+          <Name>Meal Beverage Name</Name>
+          <SourceAttributeID>Meal Beverage Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5e81cb2a-7c59-4ac4-8e8d-158253b365e4">
+          <ID>Meal Cuisine Name</ID>
+          <Name>Meal Cuisine Name</Name>
+          <SourceAttributeID>Meal Cuisine Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fcbb0961-d0ee-4317-99f6-7da31172b9c9">
+          <ID>Meal Name</ID>
+          <Name>Meal Name</Name>
+          <SourceAttributeID>Meal Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="5ce72a08-a136-4fa2-890c-8a51730819a4">
+      <ID>Hierarchy 1</ID>
+      <Name>Cuisine_Beverage_Meal</Name>
+      <Levels>
+        <Level dwd:design-time-name="8af2a7b9-ed5c-45b3-9948-f4cbe3c38bc9">
+          <ID>Meal Cuisine Name</ID>
+          <Name>Meal Cuisine Name</Name>
+          <SourceAttributeID>Meal Cuisine Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="20ffb5fb-c2b8-41c8-adba-5770a6ba0cfd">
+          <ID>Meal Beverage Name</ID>
+          <Name>Meal Beverage Name</Name>
+          <SourceAttributeID>Meal Beverage Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5e119507-4ce8-46f5-bcf3-b62294109bcc">
+          <ID>Meal Name</ID>
+          <Name>Meal Name</Name>
+          <SourceAttributeID>Meal Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="ce051ab1-88f6-47a9-a64a-39b3bf9e595d">
+      <ID>Hierarchy 2</ID>
+      <Name>Meal_Cuisine_Beverage</Name>
+      <Levels>
+        <Level dwd:design-time-name="17b8dd31-395f-4f13-8e46-3b392d513c1f">
+          <ID>Meal Name</ID>
+          <Name>Meal Name</Name>
+          <SourceAttributeID>Meal Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f21b35f1-3d14-4d7b-8157-fe669839c0c0">
+          <ID>Meal Cuisine Name</ID>
+          <Name>Meal Cuisine Name</Name>
+          <SourceAttributeID>Meal Cuisine Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e8b70542-0ef1-4a4d-a481-8e72617265d4">
+          <ID>Meal Beverage Name</ID>
+          <Name>Meal Beverage Name</Name>
+          <SourceAttributeID>Meal Beverage Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="4066836c-cce3-4860-aebc-cc78da3c3cdf">
+      <ID>Hierarchy 1 1</ID>
+      <Name>Meal_Beverage_Cuisine</Name>
+      <Levels>
+        <Level dwd:design-time-name="90dc714b-7c50-4f0e-9862-73a2ebb29f00">
+          <ID>Meal Name</ID>
+          <Name>Meal Name</Name>
+          <SourceAttributeID>Meal Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ee8319fb-9681-49b6-8083-b10888caaea1">
+          <ID>Meal Beverage Name</ID>
+          <Name>Meal Beverage Name</Name>
+          <SourceAttributeID>Meal Beverage Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="843f01e1-0295-4d0d-b672-b969afddd19f">
+          <ID>Meal Cuisine Name</ID>
+          <Name>Meal Cuisine Name</Name>
+          <SourceAttributeID>Meal Cuisine Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
